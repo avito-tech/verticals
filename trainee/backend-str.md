@@ -17,7 +17,7 @@
 * Примеры запросов и ответов:
    * Запрос создания брони: `curl -X POST -d "room_id=24” -d "date_start=2021-12-30" -d "date_end=2022-01-02" http://localhost:9000/bookings/create`
    * Ответ: `{"booking_id": 1444}`
-   * Запрос списка броней номера: `curl -X GET -d “room_id=24” http://localhost:9000/bookings/list`
+   * Запрос списка броней номера: `curl -X GET "http://localhost:9000/bookings/list?room_id=24"`
    * Ответ: `[{"booking_id": 1444, "date_start": "2021-12-30", "date_end": "2022-01-02"}, ...]`
 
 ## Требования
