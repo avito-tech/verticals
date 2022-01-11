@@ -17,7 +17,7 @@
 
 + __Карточка__
 
-  GET `/items/:item_id`
+  GET `/item/:item_id`
   - `item_id` - ID игры
 
 
